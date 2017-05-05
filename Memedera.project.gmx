@@ -7,14 +7,11 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Player Sprites">
-      <sprite>sprites\spr_player_dash</sprite>
+      <sprite>sprites\spr_player_idle</sprite>
       <sprite>sprites\spr_player_mask</sprite>
       <sprite>sprites\spr_player_jump</sprite>
       <sprite>sprites\spr_player_run</sprite>
-      <sprite>sprites\spr_player_ledge_grab</sprite>
       <sprite>sprites\spr_player_attack</sprite>
-      <sprite>sprites\spr_player_attack_air</sprite>
-      <sprite>sprites\spr_player_shoot</sprite>
     </sprites>
     <sprites name="Level Sprites">
       <sprite>sprites\lvl_box</sprite>
