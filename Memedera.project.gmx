@@ -14,7 +14,6 @@
       <sprite>sprites\spr_player_attack</sprite>
     </sprites>
     <sprites name="Level Sprites">
-      <sprite>sprites\lvl_box</sprite>
       <sprite>sprites\spr_solid</sprite>
     </sprites>
     <sprites name="Enemy Sprites">
@@ -28,7 +27,9 @@
     </sprites>
     <sprite>sprites\spr_bullet</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Ground_Tiles</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Helper Scripts">
