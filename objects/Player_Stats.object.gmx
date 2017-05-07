@@ -35,7 +35,7 @@ maxexpr = 3;
 level = 1;
 attack = 1;
 
-draw_set_colour(c_black);
+draw_set_colour(c_white);
 
 // Get the player's xstart and ystart
 if (instance_exists(Player)) {

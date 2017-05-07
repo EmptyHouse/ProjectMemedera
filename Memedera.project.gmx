@@ -11,7 +11,7 @@
       <sprite>sprites\spr_player_mask</sprite>
       <sprite>sprites\spr_player_jump</sprite>
       <sprite>sprites\spr_player_run</sprite>
-      <sprite>sprites\spr_player_attack</sprite>
+      <sprite>sprites\spr_player_crouch</sprite>
     </sprites>
     <sprites name="Level Sprites">
       <sprite>sprites\spr_solid</sprite>
@@ -29,6 +29,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\Ground_Tiles</background>
+    <background>background\Dirt_BG</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -47,7 +48,6 @@
       <script>scripts\player_move_state.gml</script>
       <script>scripts\player_dash_state.gml</script>
       <script>scripts\player_attack_state.gml</script>
-      <script>scripts\player_air_attack_state.gml</script>
       <script>scripts\player_hurt_state.gml</script>
       <script>scripts\player_shoot_state.gml</script>
     </scripts>

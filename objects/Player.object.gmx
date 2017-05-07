@@ -36,6 +36,7 @@ state = player_move_state;
 frc = 1.2;
 attacked = false;
 
+
 </string>
           </argument>
         </arguments>

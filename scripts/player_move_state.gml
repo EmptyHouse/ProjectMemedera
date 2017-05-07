@@ -29,7 +29,7 @@ if (!place_meeting(x, y+1, SolidParent)) {
         image_speed = .1;
     } else {
         sprite_index = spr_player_run;
-        image_speed = .6;
+        image_speed = .5;
     }
 }
 
