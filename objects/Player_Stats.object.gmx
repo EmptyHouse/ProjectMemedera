@@ -70,9 +70,10 @@ if (instance_exists(Player)) {
           <argument>
             <kind>1</kind>
             <string>/// Draw the stats
-draw_text(32, 16, "HP: " + string(hp) + "/" + string(maxhp));
-draw_text(32, 32, "STAMINA: " + string(stamina) + "/" + string(maxstamina));
-draw_text(32, 48, "LEVEL: " + string(level)); 
+draw_text(32, 48, "HP: " + string(hp));
+draw_rectangle_colour(88, 64, 8+(hp/maxhp)* 200, 48, c_red, c_red, c_red, c_red, false);
+
+
 </string>
           </argument>
         </arguments>

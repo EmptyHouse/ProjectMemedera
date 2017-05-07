@@ -17,6 +17,7 @@
     </sprites>
     <sprites name="Level Sprites">
       <sprite>sprites\spr_solid</sprite>
+      <sprite>sprites\spr_ladder</sprite>
     </sprites>
     <sprites name="Enemy Sprites">
       <sprites name="Botan">
