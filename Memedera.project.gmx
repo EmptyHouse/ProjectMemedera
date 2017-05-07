@@ -14,6 +14,7 @@
       <sprite>sprites\spr_player_crouch</sprite>
       <sprite>sprites\spr_player_dash</sprite>
       <sprite>sprites\spr_player_ground_shoot</sprite>
+      <sprite>sprites\spr_portrait</sprite>
     </sprites>
     <sprites name="Level Sprites">
       <sprite>sprites\spr_solid</sprite>
@@ -66,6 +67,9 @@
       <script>scripts\physics_step.gml</script>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\test_font</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\SolidParent</object>
