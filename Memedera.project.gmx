@@ -57,6 +57,10 @@
         <script>scripts\botan_move_left_state.gml</script>
       </scripts>
     </scripts>
+    <scripts name="Physics">
+      <script>scripts\physics_stats.gml</script>
+      <script>scripts\physics_step.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\Player</object>
