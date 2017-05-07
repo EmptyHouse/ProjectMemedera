@@ -12,6 +12,8 @@
       <sprite>sprites\spr_player_jump</sprite>
       <sprite>sprites\spr_player_run</sprite>
       <sprite>sprites\spr_player_crouch</sprite>
+      <sprite>sprites\spr_player_dash</sprite>
+      <sprite>sprites\spr_player_ground_shoot</sprite>
     </sprites>
     <sprites name="Level Sprites">
       <sprite>sprites\spr_solid</sprite>
@@ -25,7 +27,9 @@
         <sprite>sprites\spr_botan_death</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_bullet</sprite>
+    <sprites name="Arrow Sprites">
+      <sprite>sprites\spr_arrow</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Ground_Tiles</background>
@@ -49,7 +53,6 @@
       <script>scripts\player_dash_state.gml</script>
       <script>scripts\player_attack_state.gml</script>
       <script>scripts\player_hurt_state.gml</script>
-      <script>scripts\player_shoot_state.gml</script>
     </scripts>
     <scripts name="Enemy Scripts">
       <scripts name="Botan States">

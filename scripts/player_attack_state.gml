@@ -1,6 +1,6 @@
 ///player_attack_state
-sprite_index = spr_player_attack;
-image_speed = .5; 
+sprite_index = spr_player_ground_shoot;
+image_speed = .25; 
 
 //Do Damage
 if (image_index >= 1 && !attacked) {

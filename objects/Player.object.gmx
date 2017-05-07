@@ -139,7 +139,7 @@ if (above_enemy &amp;&amp; falling) {
             <kind>1</kind>
             <string>/// Change back to move state
 
-if (state == player_attack_state || state == player_dash_state || state == player_shoot_state) {
+if (state == player_attack_state || state == player_dash_state) {
     state = player_move_state;
 
 }

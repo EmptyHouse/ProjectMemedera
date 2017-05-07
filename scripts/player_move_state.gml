@@ -33,6 +33,7 @@ if (!place_meeting(x, y+1, SolidParent)) {
     }
 }
 
+
 if (Input.right || Input.left) {
     hspd += (Input.right-Input.left)*acc;
     hspd_dir = Input.right - Input.left;
@@ -72,8 +73,5 @@ if (Input.attack && vspd = 0 && hspd = 0 && !place_meeting(x+1, y, SolidParent))
     state = player_attack_state;
 }
 
-// Shoot
-if (Input.shoot_pressed && vspd = 0 && hspd = 0) {
-    image_index = 0;
-    state = player_shoot_state;
-}
+
+
