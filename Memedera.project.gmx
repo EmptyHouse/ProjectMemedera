@@ -85,7 +85,7 @@
     </objects>
     <object>objects\Damage</object>
     <object>objects\LifeFormParent</object>
-    <object>objects\Bullet</object>
+    <object>objects\Arrow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>

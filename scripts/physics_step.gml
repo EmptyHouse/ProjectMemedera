@@ -5,6 +5,7 @@ if (!use_physics)
     return 0;//ends the script if use_physics is off
 }
 draw_text(1, 2, "Hello");
+
 //Apply gravity
 if (gravity_on) 
 {
