@@ -4,7 +4,7 @@ if (!use_physics)
 {
     return 0;//ends the script if use_physics is off
 }
-
+draw_text(1, 2, "Hello");
 //Apply gravity
 if (gravity_on) 
 {
@@ -19,5 +19,5 @@ if (!lock_x)
 
 if (!lock_y) 
 {
-    y += (delta_time * y_vel);
+    y += (delta_time * vel_y);
 }
